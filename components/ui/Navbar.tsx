@@ -10,12 +10,14 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo & name */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center">
-              <Heart className="w-5 h-5 text-white" />
+          <a href="/" className='cursor-pointer'>
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center">
+                <Heart className="w-5 h-5 text-white" />
+              </div>
+              <span className="text-xl font-bold text-gray-900">VetCare</span>
             </div>
-            <span className="text-xl font-bold text-gray-900">VetCare</span>
-          </div>
+          </a>
 
           {/* Navigation links */}
           <div className="hidden md:flex items-center space-x-8">
