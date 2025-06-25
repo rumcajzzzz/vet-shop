@@ -2,11 +2,10 @@
 
 import type React from "react"
 
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Heart, Phone, Mail, MapPin, Clock } from "lucide-react"
+import { Phone, Mail, MapPin, Clock } from "lucide-react"
 import { useState } from "react"
 
 export default function ContactPage() {

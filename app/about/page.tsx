@@ -1,5 +1,3 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { Heart, Users, Award, Stethoscope } from "lucide-react"
 import Image from "next/image"
 

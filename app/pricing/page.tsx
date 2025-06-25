@@ -1,6 +1,5 @@
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Heart, Check } from "lucide-react"
+import { Check } from "lucide-react"
 
 export default function PricingPage() {
   const services = [

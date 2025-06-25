@@ -1,6 +1,4 @@
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Heart } from "lucide-react"
 import Image from "next/image"
 
 export default function GalleryPage() {
