@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Heart, Shield, Clock, Star } from "lucide-react"
 import Image from "next/image"
